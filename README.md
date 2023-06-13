@@ -7,4 +7,6 @@
 
 网络交互使用GDNet库。
 
+服务器源码见Server分支：https://github.com/cneicy/ThreeIII3/tree/server
+
 https://gitee.com/leng_yue/GameDesigner
