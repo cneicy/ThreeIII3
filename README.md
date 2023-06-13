@@ -4,3 +4,5 @@
 网络交互使用GDNet库。
 
 https://gitee.com/leng_yue/GameDesigner
+
+本分支为服务器分支。
