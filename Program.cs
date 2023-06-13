@@ -8,10 +8,10 @@ namespace Server
     {
         static void Main(string[] args)
         {
-            NDebug.BindConsoleLog(); //绑定控制台日志
-            NDebug.WriteFileMode = WriteLogMode.All; //开启日志文件记录模式
-            var service = new Service(); //创建服务器实例
-            service.Start(9543); //开始启动服务器, 端口9543
+            NDebug.BindConsoleLog();
+            NDebug.WriteFileMode = WriteLogMode.All;
+            var service = new Service();
+            service.Start(9543);
             while (true)
             {
                 Console.ReadLine();
