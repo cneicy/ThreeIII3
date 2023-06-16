@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
-        if (isLocalPlayer) Movement();;
+        if (isLocalPlayer) Movement();
     }
     void Movement()
     {
